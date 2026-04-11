@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build & Run tutorial1_Q6",
+            "type": "shell",
+            "command": "g++ tutorial1_Q6.cpp -o tutorial1_Q6 && ./tutorial1_Q6",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile and run tutorial1_Q6.cpp"
+        }
+    ]
+}
