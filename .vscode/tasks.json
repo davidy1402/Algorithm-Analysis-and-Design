@@ -1,10 +1,30 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "Build & Run tutorial9_Q1",
+//             "type": "shell",
+//             "command": "g++ tutorial9_Q1.cpp -o tutorial9_Q1 && ./tutorial9_Q1",
+//             "options": {
+//                 "cwd": "${workspaceFolder}"
+//             },
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "problemMatcher": ["$gcc"],
+//             "detail": "Compile and run tutorial9_Q1.cpp"
+//         }
+//     ]
+// }
+
 {
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build & Run tutorial1_Q6",
+            "label": "Build & Run Assignment2",
             "type": "shell",
-            "command": "g++ tutorial1_Q6.cpp -o tutorial1_Q6 && ./tutorial1_Q6",
+            "command": "g++ Assignment2.cpp -o Assignment2 && ./Assignment2",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -13,7 +33,7 @@
                 "isDefault": true
             },
             "problemMatcher": ["$gcc"],
-            "detail": "Compile and run tutorial1_Q6.cpp"
+            "detail": "Compile and run Assignment2.cpp"
         }
     ]
 }
